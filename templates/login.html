@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>login</title>
+</head>
+
+<body>
+	<form action="/login" method="post">
+		{% csrf_token %}		<!-- a label of django for preventing disguised request,if you use POST method ,requied!! -->
+		Username:<input type="text" name="UserName"><br>
+		 Password:<input type="password" name="PassWord"><br>
+		<input type="submit" value="Login">
+		<input type="reset" name="Reset">
+	</form>
+	<strong>  {{ user }} </strong>  		<!-- user is a variable,in html ,variable is recognized by double bracket,and we assign it a value in handle function -->
+</body>
+
+</html>

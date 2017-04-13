@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>aha</title>
+</head>
+<body>
+	<form action="/search-post" method="post" >
+		{% csrf_token %}
+		<input type="text" name="q">
+		<input type="submit" value="Submit">
+	</form>
+
+	<p> {{ rlt }}</p>	<!--为表单的处理结果预留位置 -->
+</body>
+</html>
