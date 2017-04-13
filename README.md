@@ -2,29 +2,32 @@
 一、简介
 	这个项目是为了把Raspberry Pi采集到的数据通过网页显示到前端而写的一个小型的网页程序。
 		开发环境与用到的工具有:
-								Ubuntu14.04LTS（一个linux系统的发行版）
-								python3.4
-									用到的python包有：Django（web开发框架）
-													  pymysql（python3和mysql数据库交互的库）
-													  datetime（内置模块（不需要安装的）做时间处理）
-													  matplotlib（绘图的库，可能需要前置numpy和scipy的库）
-													  time（用于对程序运行时间的定时控制）
-								ipython1.2.1（一个高效的python解释器（因为python是解释型语言））
-								html（搭建网页的模板）
-								SQL(一种用于访问和处理数据库的标准计算机语言)
-								正则表达式（用于处理字符串的神器）
-								crontab（linux下的用于控制任务计划的工具，利用它来定时删除、写入数据）
-								腾讯云服务器（公网IP目前为182.254.223.166,之后可能会换,利用ssh命令可远程访问，
-								用来部署web服务器)
-								sublime编辑器（不同于IDE，个人用起来感觉还不错）
+				Ubuntu14.04LTS（一个linux系统的发行版）
+				python3.4
+				用到的python包有：Django（web开发框架）
+					  pymysql（python3和mysql数据库交互的库）
+					  datetime（内置模块（不需要安装的）做时间处理）
+					  matplotlib（绘图的库，可能需要前置numpy和scipy的库）
+					  time（用于对程序运行时间的定时控制）
+				ipython1.2.1（一个高效的python解释器（因为python是解释型语言））
+				html（搭建网页的模板）
+				SQL(一种用于访问和处理数据库的标准计算机语言)
+				正则表达式（用于处理字符串的神器）
+				crontab（linux下的用于控制任务计划的工具，利用它来定时删除、写入数据）
+				腾讯云服务器（公网IP目前为182.254.223.166,之后可能会换,利用ssh命令可远程访问，
+				用来部署web服务器)
+				sublime编辑器（不同于IDE，个人用起来感觉还不错）
+				github代码托管（同时也开源了）网站和git命令
 
-		下一步可能用到的工具：  javascript
-		CSS（用这两个丰富网页内容，把它做的更好看，功能更强大）
+		下一步可能用到的工具： 
+				javascript
+				CSS（用这两个丰富网页内容，把它做的更好看，功能更强大）
 
 
 二、学习资料推荐
 	
 		python3部分：（PS：注意pyhton2和python3有着巨大的区别，个人建议学习python3，因为官方对py2只维护到2020年）
+	
 		1.www.liaoxuefeng.com 廖雪峰大神的个人网站，最好的中文python3教程
 		2.Python语言程序设计/(美) 梁勇著 李娜译,机械工业出版社，图书馆有，比较基础
 		3.利用python进行数据分析/（美）Wes McKINNEY 唐学韬译，机械工业出版社  比较好的入门科学计算的书
